@@ -1,0 +1,25 @@
+{
+  "name": "orator2",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ldougher06/orator2",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  }
+}

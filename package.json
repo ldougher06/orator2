@@ -1,0 +1,51 @@
+{
+  "name": "orator2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldougher06/orator2.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "author": "Logan Dougher <logan.dougher@gmail.com> (https://logandougher.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldougher06/orator2/issues"
+  },
+  "homepage": "https://github.com/ldougher06/orator2#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "chalk": "^1.1.3",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.0",
+    "connect-redis": "^3.0.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.14",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-alpha6"
+  }
+}
